@@ -1,0 +1,141 @@
+.btn-home-div {
+  padding-right: 130px;
+}
+.btn-home-div .btn-home {
+  scale: 1.9;
+  cursor: pointer;
+}
+.btn-home-div .btn-home:hover {
+  color: gray;
+}
+
+.filtro-section {
+  display: flex;
+}
+.filtro-section .filtro-div {
+  margin: 50px;
+  display: inline-block;
+  margin-top: 120px;
+}
+.filtro-section .filtro-div .filtro {
+  padding: 10px 20px;
+  background-color: rgb(230, 228, 228);
+  border-radius: 10px;
+  position: fixed;
+  font-size: 18px;
+}
+.filtro-section .filtro-div .filtro .form-check {
+  margin: 10px 0;
+}
+.filtro-section .filtro-div .filtro-options {
+  border-top: 2px solid black;
+}
+
+@media (max-width: 680px) {
+  .filtro-section {
+    display: block;
+  }
+  .filtro-section .filtro-div {
+    margin: 20px;
+    display: block;
+  }
+  .filtro-section .filtro-div .filtro {
+    position: relative;
+  }
+}
+.carousel .div-imagem-carrossel .imagem-carrossel {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 400px;
+}
+.carousel .carrossel-text {
+  background: linear-gradient(45deg, rgb(255, 187, 0), yellow, lightyellow);
+  border-radius: 10px;
+  color: black;
+}
+
+.menuLink {
+  text-decoration: none;
+  color: white;
+}
+
+.playstation-filtro {
+  border-bottom: 5px solid blue;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.playstation-filtro:hover {
+  border-width: 10px;
+}
+
+.x-box-filtro {
+  border-bottom: 5px solid green;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.x-box-filtro:hover {
+  border-width: 10px;
+}
+
+.nintendo-filtro {
+  border-bottom: 5px solid red;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.nintendo-filtro:hover {
+  border-width: 10px;
+}
+
+.selecionado {
+  border-width: 10px;
+}
+
+.bg-blue {
+  background: linear-gradient(155deg, white, lightblue, blue, blue, darkblue, darkblue);
+}
+
+.bg-green {
+  background: linear-gradient(155deg, white, lightgreen, green, green, darkgreen, darkgreen);
+}
+
+.bg-red {
+  background: linear-gradient(155deg, white, lightcoral, red, red, darkred);
+}
+
+main {
+  padding-bottom: 300px;
+}
+
+.produtos {
+  vertical-align: top;
+  margin: 100px 40px;
+  margin-left: 250px;
+}
+.produtos .produto {
+  margin: 20px;
+  height: 400px;
+}
+.produtos .produto img {
+  box-sizing: border-box;
+  max-height: 296px;
+}
+
+@media (max-width: 680px) {
+  .produtos {
+    margin: 40px;
+  }
+  .produtos .produto {
+    box-sizing: border-box;
+    margin: 20px auto;
+  }
+}
+.formulario {
+  margin: 100px 550px 100px 200px;
+}
+.formulario .inputForm {
+  width: 100%;
+  border: 2px black solid;
+  border-radius: 15px;
+  display: block;
+  height: 40px;
+}/*# sourceMappingURL=style.css.map */
