@@ -1,0 +1,36 @@
+.playstation-filtro {
+    border-bottom: 5px solid blue;
+    cursor: pointer;
+    transition: 0.15s;
+    &:hover {
+        border-width: 10px;
+    }
+}
+.x-box-filtro {
+    border-bottom: 5px solid green;
+    cursor: pointer;
+    transition: 0.15s;
+    &:hover {
+        border-width: 10px;
+    }
+}
+.nintendo-filtro {
+    border-bottom: 5px solid red;
+    cursor: pointer;
+    transition: 0.15s;
+    &:hover {
+        border-width: 10px;
+    }
+}
+.selecionado {
+    border-width: 10px;
+}
+.bg-blue {
+    background: linear-gradient(155deg, white, lightblue, blue, blue, darkblue, darkblue);
+}
+.bg-green {
+    background: linear-gradient(155deg, white, lightgreen, green, green, darkgreen, darkgreen);
+}
+.bg-red {
+    background: linear-gradient(155deg, white, lightcoral, red, red, darkred);
+}

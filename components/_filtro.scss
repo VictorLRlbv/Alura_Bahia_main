@@ -1,0 +1,34 @@
+.filtro-section {
+    display: flex;
+    .filtro-div {
+        margin: 50px;
+        display: inline-block;
+        margin-top: 120px;
+        .filtro {
+            padding: 10px 20px;
+            background-color: rgb(230, 228, 228);
+            border-radius: 10px;
+            position: fixed;
+            font-size: 18px;
+            .form-check {
+                margin: 10px 0;
+            }
+        }
+        .filtro-options {
+            border-top: 2px solid black;
+        }
+    }
+}
+
+@media (max-width: 680px) {
+    .filtro-section {
+        display: block;
+        .filtro-div {
+            margin: 20px;
+            display: block;
+            .filtro {
+                position: relative;
+            }
+        }
+    }
+}

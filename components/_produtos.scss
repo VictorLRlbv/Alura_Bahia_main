@@ -1,0 +1,23 @@
+.produtos {
+    vertical-align: top;
+    margin: 100px 40px;
+    margin-left: 250px;
+    .produto {
+        margin: 20px;
+        height: 400px;
+        img {
+            box-sizing: border-box;
+            max-height: 296px;
+        }
+    }
+}
+
+@media (max-width: 680px) {
+    .produtos {
+        margin: 40px;
+        .produto {
+            box-sizing: border-box;
+            margin: 20px auto;
+        }
+    }
+}
