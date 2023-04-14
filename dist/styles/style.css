@@ -129,13 +129,6 @@ main {
     margin: 20px auto;
   }
 }
-.formulario {
-  margin: 100px 550px 100px 200px;
-}
-.formulario .inputForm {
+.img-meteora {
   width: 100%;
-  border: 2px black solid;
-  border-radius: 15px;
-  display: block;
-  height: 40px;
 }/*# sourceMappingURL=style.css.map */
