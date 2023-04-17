@@ -1,0 +1,13 @@
+.carousel {
+    .div-imagem-carrossel {
+        .imagem-carrossel {
+            object-fit: cover;
+            height: 400px;
+        }
+    }
+    .carrossel-text {
+        background: linear-gradient(45deg, rgb(255, 187, 0), yellow, lightyellow);
+        border-radius: 10px;
+        color: black;
+    }
+}
