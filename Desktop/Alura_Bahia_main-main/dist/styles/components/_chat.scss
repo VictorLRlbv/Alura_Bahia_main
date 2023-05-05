@@ -1,0 +1,38 @@
+.main-chat {
+    padding-top: 80px;
+    .mensagem {
+        margin-left: 400px;
+    }
+    .dataMensagem {
+        font-size: 13px;
+    }
+    .campo-text {
+        .form-control {
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+        .container-send {
+            cursor: pointer;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            background-color: lightgrey;
+            transition: 0.2s;
+            &:hover {
+                background-color: gray;
+            }
+            &:active {
+                background-color: #333333;
+                .aviaozinho-de-papel {
+                    color: white;
+                }
+            }
+            .aviaozinho-de-papel {
+                color: black;
+                margin: 10px 60px;
+                padding-top: 5px;
+            }
+        }
+    }
+    
+    
+}

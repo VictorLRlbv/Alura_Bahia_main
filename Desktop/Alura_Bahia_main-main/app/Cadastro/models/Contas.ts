@@ -1,4 +1,4 @@
-import { Conta } from "./conta.js";
+import { Conta } from "./Conta.js";
 
 export class Contas {
     private _contas: Conta[] = []

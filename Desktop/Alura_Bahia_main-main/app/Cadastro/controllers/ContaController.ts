@@ -1,6 +1,6 @@
-import { Conta } from "../models/conta.js"
-import { Contas } from "../models/contas.js"
-import { ContaView } from "../view/contaView.js"
+import { Conta } from "../models/Conta.js"
+import { Contas } from "../models/Contas.js"
+import { ContaView } from "../view/ContaView.js"
 
 export class ContaController {
     private _emailInput: HTMLInputElement
@@ -22,7 +22,6 @@ export class ContaController {
     public criaConta(): Conta {
         let newConta = new Conta(this._nomeInput.value, this._emailInput.value, this._numeroInput.value, this._senhaInput.value)
         this._contas.adiciona(newConta)
-        console.log(this._contas.lista())
         this._view.update()
         this._emailInput.value = ''
         this._nomeInput.value = ''

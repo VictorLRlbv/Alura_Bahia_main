@@ -131,4 +131,95 @@ main {
 }
 .img-meteora {
   width: 100%;
+}
+
+.main-chat {
+  padding-top: 80px;
+}
+.main-chat .mensagem {
+  margin-left: 400px;
+}
+.main-chat .dataMensagem {
+  font-size: 13px;
+}
+.main-chat .campo-text .form-control {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.main-chat .campo-text .container-send {
+  cursor: pointer;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: lightgrey;
+  transition: 0.2s;
+}
+.main-chat .campo-text .container-send:hover {
+  background-color: gray;
+}
+.main-chat .campo-text .container-send:active {
+  background-color: #333333;
+}
+.main-chat .campo-text .container-send:active .aviaozinho-de-papel {
+  color: white;
+}
+.main-chat .campo-text .container-send .aviaozinho-de-papel {
+  color: black;
+  margin: 10px 60px;
+  padding-top: 5px;
+}
+
+form .formulario {
+  margin: 0 auto;
+  width: 50%;
+  padding: 20px;
+  margin-top: 80px;
+  box-shadow: 0px 0px 10px 20px #ebeaea;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #cfcfcf;
+}
+form .formulario .form-floating:not(.form-control:disabled)::before {
+  display: none;
+}
+form .formulario label {
+  color: rgb(69, 69, 69);
+}
+form .formulario .form-control {
+  text-align: center;
+  cursor: pointer;
+  background-color: #f3f2f2;
+  border: 2px solid #b0b0b0;
+}
+form .container {
+  text-align: center;
+}
+form .container .btn {
+  padding: 8px 20px 8px 20px;
+  margin: 40px;
+}
+form .container .btn:active {
+  background-color: gray;
+  border-color: rgba(128, 128, 128, 0);
+}
+
+@media (max-width: 990px) {
+  form .formulario {
+    width: 100%;
+    box-shadow: none;
+  }
+}
+footer {
+  background-color: #212529;
+  margin-bottom: 0px;
+}
+footer .container .bi {
+  color: white;
+  width: 25px;
+  cursor: pointer;
+}
+footer .container .bi :hover {
+  color: rgb(192, 192, 192);
+}
+footer .container .copyrght {
+  display: inline;
 }/*# sourceMappingURL=style.css.map */

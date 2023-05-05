@@ -1,4 +1,4 @@
-import { Contas } from "../models/contas.js"
+import { Contas } from "../models/Contas.js"
 
 export class ContaView{
     private _element: HTMLElement;

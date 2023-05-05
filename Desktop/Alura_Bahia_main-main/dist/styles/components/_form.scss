@@ -1,0 +1,42 @@
+form { 
+    .formulario { 
+        margin: 0 auto; 
+        width: 50%; 
+        padding: 20px; 
+        margin-top: 80px; 
+        box-shadow: 0px 0px 10px 20px #ebeaea;
+        background-color: #ffffff; 
+        border-radius: 10px; 
+        border: 1px solid #cfcfcf; 
+        .form-floating:not(.form-control:disabled)::before{ 
+            display: none; 
+        } 
+        label{ 
+            color: rgb(69 69 69); 
+        } 
+        .form-control { 
+            text-align: center; 
+            cursor: pointer; 
+            background-color: #f3f2f2; 
+            border: 2px solid #b0b0b0; 
+        } 
+    } 
+    .container { 
+        text-align: center; 
+        .btn { 
+            padding: 8px 20px 8px 20px; 
+            margin: 40px; &:active { 
+                background-color: gray; 
+                border-color: rgba(128, 128, 128, 0); 
+            } 
+        } 
+    } 
+} 
+@media (max-width: 990px) { 
+    form { 
+        .formulario { 
+            width: 100%; 
+            box-shadow: none; 
+        } 
+    } 
+}

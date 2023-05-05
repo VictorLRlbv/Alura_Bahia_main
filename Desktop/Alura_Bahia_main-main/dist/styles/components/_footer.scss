@@ -1,0 +1,16 @@
+footer { 
+    background-color: #212529; 
+    margin-bottom: 0px; 
+    .container { 
+        .bi{ 
+            color: white; 
+            width: 25px; 
+            cursor: pointer; 
+            :hover{ 
+                color: rgb(192, 192, 192); 
+            } 
+        } 
+        .copyrght{ display: inline; 
+        } 
+    } 
+}
