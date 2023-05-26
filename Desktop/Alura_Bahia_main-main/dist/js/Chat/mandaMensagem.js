@@ -9,6 +9,10 @@ let hora = `${novaDataCaracteristicas[4].split(':', 2)}`;
 let date = `${dia}/${mes + 1} ${hora.replace(',', ':')}`;
 let controller = new MensagemController(date, '#textField');
 btnMensagem.addEventListener('click', (event) => {
+    if (mensagemInput.value == '') {
+        throw new Error('Digite algo antes de mandar!');
+    }
     controller.cria();
     mensagemInput.value = '';
+    mensagemInput.focus();
 });

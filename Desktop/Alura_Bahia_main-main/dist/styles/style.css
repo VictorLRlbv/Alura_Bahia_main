@@ -134,10 +134,17 @@ main {
 }
 
 .main-chat {
-  padding-top: 80px;
+  padding-top: 50px;
+  padding-bottom: 700px;
+  height: 100%;
 }
 .main-chat .mensagem {
   margin-left: 400px;
+}
+.main-chat .mensagemResposta {
+  margin-right: 400px;
+  width: 50%;
+  margin-left: 30px;
 }
 .main-chat .dataMensagem {
   font-size: 13px;

@@ -1,7 +1,14 @@
 .main-chat {
-    padding-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 700px;
+    height: 100%;
     .mensagem {
         margin-left: 400px;
+    }
+    .mensagemResposta {
+        margin-right: 400px;
+        width: 50%;
+        margin-left: 30px;
     }
     .dataMensagem {
         font-size: 13px;

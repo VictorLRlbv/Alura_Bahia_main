@@ -1,0 +1,16 @@
+.playerContainer {
+    .player {
+        transform: scaleX(-1);
+        position: fixed;
+        height: 150px;
+        bottom: 30px;
+        left: 100px;
+    }
+    .playerBackwards {
+        transform: scaleX(1);
+        position: fixed;
+        height: 150px;
+        bottom: 30px;
+        left: 100px;
+    }
+}

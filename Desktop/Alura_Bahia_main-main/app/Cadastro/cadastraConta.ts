@@ -1,9 +1,9 @@
 import { ContaController } from "./controllers/ContaController.js"
 
-let btnCadastra = document.getElementById('btnCadastra')
-let controller = new ContaController('#usuario', '#email', '#numeroTelefone', '#senha')
+let btnCadastra = document.querySelector('#btnCadastrar')
+let controller = new ContaController('#nome', '#email', '#telefone', '#senha')
 
-btnCadastra?.addEventListener('click', (event) => {
+btnCadastra.addEventListener('click', (event) => {
     event.preventDefault()
     controller.criaConta();
 })

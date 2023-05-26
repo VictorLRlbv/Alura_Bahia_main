@@ -6,10 +6,10 @@ export class MensagemView {
     template(mensagens) {
         return mensagens.lista().map(mensagem => {
             return `
-            <div class="alert alert-light mensagem mt-3 me-4 d-block" role="alert">
-                <p class="text-secondary dataMensagem">${mensagem.data.replace('"', '').replace('"', '')}</p>
-                <p>${mensagem.texto}</p>
-            </div>
+                <div class="alert alert-light mensagem mt-3 me-4 d-block" role="alert">
+                    <p class="text-secondary dataMensagem">${mensagem.data.replace('"', '').replace('"', '')}</p>
+                    <p>${mensagem.texto}</p>
+                </div>
             `;
         }).join();
     }
@@ -18,4 +18,3 @@ export class MensagemView {
         this._sectionView.innerHTML = template;
     }
 }
-// fs-6
