@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .mainImage {
   height: 95vh;
   background-image: url(../../img/CenarioFase1.png);
@@ -18,4 +22,18 @@
   height: 150px;
   bottom: 30px;
   left: 100px;
+}
+
+.buttonPauseContainer .buttonPause {
+  display: inline;
+  position: absolute;
+  right: 30px;
+  height: 100px;
+}
+
+.menuPause .modal-content {
+  background-color: #966F33;
+}
+.menuPause .menuOptions {
+  height: 100px;
 }/*# sourceMappingURL=style.css.map */
